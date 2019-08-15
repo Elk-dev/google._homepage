@@ -1,9 +1,9 @@
 .navigation-wrapper{
-    top: 16px;
-    width: 100%;
+    height: 45px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: right;
 }
 #apps:hover{
     opacity: .85;
@@ -20,6 +20,7 @@
     text-decoration: none;
     margin: 0 0 0 15px;
     opacity: .55;
+    margin-right: 13px;
 }
 .navigation-wrapper>.left-column{
     font-family: arial, sans-serif;
@@ -27,18 +28,28 @@
     opacity: .75;
     display: flex;
     align-items: center;
+    padding-left: 2px;
 }
 .navigation-wrapper>.left-column>.about{
     padding-left: 15px;
     text-decoration: none;
 }
 .navigation-wrapper>.left-column>.store{
-    padding-left: 15px;
+    padding-left: 19px;
     text-decoration: none;
 }
 .navigation-wrapper>.right-column{
     font-family: arial, sans-serif;
     font-size: 13px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.navigation-wrapper>.right-column>.gmail{
+    padding-right: 13px;
+}
+.navigation-wrapper>.right-column>.images{
+    padding-right: 13px;
 }
