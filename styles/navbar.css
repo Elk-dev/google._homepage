@@ -5,6 +5,44 @@
     align-items: center;
     text-align: right;
 }
+.navigation-wrapper>.left-column{
+    font-family: arial, sans-serif;
+    color: #000000;
+    font-size: 13px;
+    opacity: .75;
+    display: flex;
+    align-items: center;
+    padding-left: 2px;
+   
+}
+
+
+.navigation-wrapper>.left-column>.about:hover{
+    text-decoration: underline;   
+}
+
+.navigation-wrapper>.left-column>.about a{
+    padding-left: 15px;
+    color: #000000;
+    text-decoration: none;
+}
+.navigation-wrapper>.left-column>.store:hover{
+    text-decoration: underline;
+}
+.navigation-wrapper>.left-column>.store  a{
+    padding-left: 19px;
+    color: #000000;
+    text-decoration: none;
+}
+.navigation-wrapper>.right-column{
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 #apps:hover{
     opacity: .85;
 }
@@ -22,34 +60,41 @@
     opacity: .55;
     margin-right: 13px;
 }
-.navigation-wrapper>.left-column{
-    font-family: arial, sans-serif;
-    font-size: 13px;
-    opacity: .75;
-    display: flex;
-    align-items: center;
-    padding-left: 2px;
+.navigation-wrapper>.right-column>.gmail:hover{
+    opacity: .85;
+    text-decoration: underline;
 }
-.navigation-wrapper>.left-column>.about{
-    padding-left: 15px;
+.navigation-wrapper>.right-column>.gmail a{
+    padding-right: 13px;
+    color: #000000;
     text-decoration: none;
 }
-.navigation-wrapper>.left-column>.store{
-    padding-left: 19px;
+.navigation-wrapper>.right-column>.images:hover{
+    opacity: .85;
+    text-decoration: underline;
+}
+.navigation-wrapper>.right-column>.images a{ 
+    padding-right: 13px;
+    color: #000000;
     text-decoration: none;
 }
-.navigation-wrapper>.right-column{
-    font-family: arial, sans-serif;
-    font-size: 13px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
+.navigation-wrapper>.right-column>.sign-in:hover{
+    box-shadow: 0 1px 0 rgba(0, 0,0, .15);
 }
-.navigation-wrapper>.right-column>.gmail{
-    padding-right: 13px;
+.navigation-wrapper>.right-column>.sign-in:active{
+    box-shadow: inset 0 2px 0 rgba (0, 0,0, .15);
 }
-.navigation-wrapper>.right-column>.images{
-    padding-right: 13px;
+.navigation-wrapper>.right-column>.sign-in a{
+    cursor: default;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    background: #4285f4;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    color: #ffffff;
+    font-weight: bold;
+    padding:0 12px;
+    line-height: 28px;
 }
