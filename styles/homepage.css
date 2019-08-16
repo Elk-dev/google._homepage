@@ -1,0 +1,9 @@
+.features-wrapper{
+    height: 233px;
+    margin-top: 89px;
+}
+.features-wrapper>.features>.logo>.icon{
+    padding-top: 53px;
+    display: flex;
+    justify-content: center;
+}
