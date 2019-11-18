@@ -1,0 +1,19 @@
+.btn {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5f6368;
+  font-family: arial, sans-serif;
+  font: 14px;
+  padding: 0 16px;
+  height: 36px;
+}
+.btn:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+.centered-btn-wrapper {
+  margin-left: 500px;
+}

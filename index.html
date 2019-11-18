@@ -1,66 +1,67 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/> 
-        <title>Google</title>
-        <link rel="shortcut icon" href="https://cdn4.iconfinder.com/data/icons/new-google-logo-2015/400/new-google-favicon-512.png">
-        <meta name="viewport" content="width=device-width, initial scale =1">
-        <link rel="stylesheet" href="styles/navbar.css">
-        <link rel="stylesheet" href="styles/homepage.css">
-
-    </head>
-    <body>
-        <div class="navigation-wrapper">
-            <div class="left-column">
-                <div class="about">
-                    <a href="https://about.google">About</a>
-                </div>
-                <div class="store">
-                    <a href="https://store.google.com">Store</a>
-                </div>
-            </div>
-            <div class="right-column">
-                <div class="gmail">
-                    <a href="https://www.gmail.com">Gmail</a>
-                </div>
-                <div class="images">
-                    <a href="https://images.google.com">Images</a>
-                </div>
-                <div id="apps"></div>
-                <div class="sign-in">
-                    <a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/webhp%3Fhl%3Den%26sa%3DX%26ved%3D0ahUKEwj9l7LY_e_jAhWBXM0KHUWPCX0QPAgH">Sign in</a>
-                </div>
-            </div>
+  <head>
+    <meta charset="utf-8" />
+    <title>Google</title>
+    <link
+      rel="shortcut icon"
+      href="https://cdn4.iconfinder.com/data/icons/new-google-logo-2015/400/new-google-favicon-512.png"
+    />
+    <meta name="viewport" content="width=device-width, initial scale =1" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/homepage.css" />
+    <link rel="stylesheet" href="./styles/spacers.css"/>
+    <link rel="stylesheet" href="./styles/buttons.css"/>
+  </head>
+  <body>
+    <div class="navigation-wrapper">
+      <div class="left-column">
+        <div class="about">
+          <a href="https://about.google">About</a>
         </div>
-        <div class="features-wrapper">
-            <div class="features">
-                <div class="logo">
-                    <div class="icon">
-                        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-                    </div>
-                </div>
-                <form>
-                    <div class="form-group">
-                        <input type="text" id="big-searchbar" placeholder="What are we looking up today?">
-                        <div class="big-searchbar">
-                        <div class="searchbar"></div>
-                    </div>
-                    </div>
-                </form>
-
-
-
+        <div class="store">
+          <a href="https://store.google.com">Store</a>
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="gmail">
+          <a href="https://www.gmail.com">Gmail</a>
+        </div>
+        <div class="images">
+          <a href="https://images.google.com">Images</a>
+        </div>
+        <div id="apps"></div>
+        <div class="sign-in">
+          <a
+            href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/webhp%3Fhl%3Den%26sa%3DX%26ved%3D0ahUKEwj9l7LY_e_jAhWBXM0KHUWPCX0QPAgH"
+            >Sign in</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="features-wrapper">
+      <div class="features">
+        <div class="logo">
+          <div class="icon">
+            <img
+              src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+            />
+          </div>
+        </div>
+        <div class="form">
+          <div class="form-group">
+            <input type="text" id="big-searchbar" />
             </div>
 
-
-
+            <div class="spacer10"></div>
+            
+                <div class="centered-btn-wrapper">
+                <button type="submit"class="btn">Google Search</button>
+                <button type="submit" class="btn">I'm Feeling Lucky</button>
+            </div>
+          </div>
         </div>
-
-
-
-
-
-
-
-    </body>
+      </div>
+    </div>
+  </body>
 </html>
