@@ -1,0 +1,22 @@
+.footer-wrapper{
+    margin-bottom: 0px;
+    position: fixed;
+    padding: 0px;
+    width: 100%;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    font-family: arial, sans-serif;
+    font-size: 10pt;
+    color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-wrapper> .left-column{
+    display: flex;
+    align-items: center;
+}
+.footer-wrapper> .right-column{
+    display: flex;
+    align-items: center;
+}
