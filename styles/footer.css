@@ -1,22 +1,20 @@
 .footer-wrapper{
-    margin-bottom: 0px;
-    position: fixed;
-    padding: 0px;
-    width: 100%;
-    background: #f2f2f2;
-    border-top: 1px solid #e4e4e4;
-    font-family: arial, sans-serif;
-    font-size: 10pt;
+    background-color: #f2f2f2;
     color: #222;
+    font-family: arial, sans-serif;
+    border-top: 1px solid #e4e4e4;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
 }
-.footer-wrapper> .left-column{
+.footer-wrapper>.left-column{
     display: flex;
-    align-items: center;
 }
-.footer-wrapper> .right-column{
+.footer-wrapper>.right-column{
     display: flex;
-    align-items: center;
 }
