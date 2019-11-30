@@ -1,10 +1,8 @@
 .footer-wrapper{
-    background-color: #f2f2f2;
-    color: #222;
-    font-family: arial, sans-serif;
+    background-color: #f2f2f2;    font-family: arial, sans-serif;
     border-top: 1px solid #e4e4e4;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 40px;
     width: 100%;
@@ -12,9 +10,24 @@
     bottom: 0px;
     left: 0px;
 }
-.footer-wrapper>.left-column{
+.footer-wrapper>.left-column{ 
+    font-size: 10pt;
     display: flex;
+}
+.footer-wrapper>.left-column a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: #5f6368;
+
 }
 .footer-wrapper>.right-column{
+    font-size: 10pt;
     display: flex;
 }
+.footer-wrapper>.right-column a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: #5f6368;
+
+}
+
